@@ -9,12 +9,14 @@ public class SoftwareEngineer {
     private String name;
     private String role;
     private String country;
+    private String education;
     private String[] languageSpoken;
 
     public SoftwareEngineer() {
         this.name = "Jonattan Silva";
         this.role = "Software Engineer";
         this.country = "Brazil"
+        this.education = "Information Systems, University of São Paulo"
         this.languageSpoken = new String[] {"pt_BR", "en_US"};
     }
 
